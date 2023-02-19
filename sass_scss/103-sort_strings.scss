@@ -1,9 +1,3 @@
-/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
-
+/* Sass file */
 @import '103-sort_list.scss';
-
-// Sort the list
-$list_sorted: sort($list_to_sort);
-
-// Print the sorted list in debug output
-@debug $list_sorted;
+@debug
