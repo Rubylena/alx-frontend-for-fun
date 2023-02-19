@@ -6,4 +6,4 @@
 $list_sorted: sort($list_to_sort);
 
 // Print the sorted list in debug output
-@debug "Sorted list: #{$list_sorted}";
+@debug $list_sorted;
