@@ -1,0 +1,19 @@
+/* creates classes with different width */
+
+@mixin widthVW($w){
+    width: $w;
+}
+
+@for $i from 1 through 4 {
+    .col-#{$i} {
+        @if $i == 1 {
+            @include widthVW(100%);
+        } @else if $i == 2 {
+            @include widthVW(50%);
+        } @else if $i == 3 {
+            @include widthVW(33.3333333333%);
+        } @else {
+            @include widthVW(25%);
+        }
+    }
+}
