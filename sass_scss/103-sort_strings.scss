@@ -2,4 +2,8 @@
 
 @import '103-sort_list.scss';
 
-@debug $list_to_sort;
+// Sort the list
+$list_sorted: sort($list_to_sort);
+
+// Print the sorted list in debug output
+@debug $list_sorted;
